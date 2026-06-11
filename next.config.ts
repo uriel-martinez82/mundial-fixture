@@ -13,9 +13,6 @@ if (typeof globalThis.localStorage !== "undefined") {
 
 const nextConfig: NextConfig = {
   devIndicators: false,
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
   typescript: {
     ignoreBuildErrors: true,
   },
